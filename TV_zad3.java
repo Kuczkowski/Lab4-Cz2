@@ -5,4 +5,3 @@ public class TV_zad3 {
     int volume;
     int wlaczyc;
 }
-
