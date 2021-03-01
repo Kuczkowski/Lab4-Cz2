@@ -21,7 +21,7 @@ public class Remote_zad4{
         System.out.println("Podaj kanał:");
         int numer = scan.nextInt();
         while (numer>20){
-            System.out.println("Najwiekszy kanał to 20.");
+            System.out.println("Najwiekszy kanał to 20, zostanie na to ustawione.");
             numer =20;}
         while (numer<1){
             System.out.println("Najmniejsza mozliwa opcja to 1, zostanie na to ustawione.");
@@ -35,7 +35,7 @@ public class Remote_zad4{
         System.out.println("Podaj głośność:");
         int glosnosc =scan.nextInt();
         while (glosnosc>10){
-            System.out.println("Najwieksza glosnosc mozliwa to 10.");
+            System.out.println("Najwieksza glosnosc mozliwa to 10, zostanie na to ustawione.");
             glosnosc =10;}
         while (glosnosc<1){
             System.out.println("Najmniejsza mozliwa opcja to 1, zostanie na to ustawione.");
@@ -45,4 +45,4 @@ public class Remote_zad4{
         glos.volume =glosnosc;
         System.out.println("Głośność ustawiono na: "+glosnosc);
         return;
-    } }}
+    } } }
