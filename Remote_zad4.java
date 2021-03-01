@@ -45,4 +45,4 @@ public class Remote_zad4{
         glos.volume =glosnosc;
         System.out.println("Głośność ustawiono na: "+glosnosc);
         return;
-    } }}//Wiem ze troche to pokomplikowane ale zrobilem jak umialem :x
+    } }}
