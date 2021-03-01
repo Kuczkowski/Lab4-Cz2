@@ -2,7 +2,7 @@ package com.company;
 import java.util.Scanner;
 
 
-public class Remote_zad5{
+public class Remote_zad3{
 
     public static void main(String[] args) {
 
@@ -11,7 +11,7 @@ public class Remote_zad5{
         int odpowiedz = scan.nextInt();
         while (odpowiedz>1)
         {
-        TV_zad5 opcja = new TV_zad5();
+        TV_zad3 opcja = new TV_zad3();
         opcja.wlaczyc = odpowiedz;
         System.out.println("Twoj wybor to tak, nacisnales liczbę: "+odpowiedz);
 
@@ -27,7 +27,7 @@ public class Remote_zad5{
             System.out.println("Najmniejsza mozliwa opcja to 1, zostanie na to ustawione.");
             numer=1;
         }
-        TV_zad5 kanal = new TV_zad5();
+        TV_zad3 kanal = new TV_zad3();
         kanal.channel = numer;
         System.out.println("Kanal ustawiono na: "+numer);
 
@@ -41,7 +41,7 @@ public class Remote_zad5{
             System.out.println("Najmniejsza mozliwa opcja to 1, zostanie na to ustawione.");
             glosnosc=1;
         }
-        TV_zad5 glos = new TV_zad5();
+        TV_zad3 glos = new TV_zad3();
         glos.volume =glosnosc;
         System.out.println("Głośność ustawiono na: "+glosnosc);
         return;
