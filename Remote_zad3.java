@@ -31,7 +31,6 @@ public class Remote_zad3{
         kanal.channel = numer;
         System.out.println("Kanal ustawiono na: "+numer);
 
-
         System.out.println("Podaj głośność:");
         int glosnosc =scan.nextInt();
         while (glosnosc>10){
